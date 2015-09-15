@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="actionbar_bg">#ff5500</color>
+
+    <color name="font_color_blue">#2277dd</color>
+    <!--文字-->
+    <color name="font_color_white">#fff</color>
+    <!--主要文字 -->
+    <color name="font_color_black">#333</color>
+    <color name="grey_line">#ddd</color>
+    <!-- 提示文字 -->
+    <color name="font_color_orange">#ff5500</color>
+    <color name="title_pressed">#ee4400</color>
+    <color name="background_gray">#f8f8f8</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="title_background_orange">#ff5500</color>
+    <color name="font_unimportance_color_gray">#999</color>
+    <color name="background_light_gray">#f3f3f3</color>
+    <color name="font_minor_color_gray">#555</color>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="WhiteSmallButton">
+        <item name="android:background">@drawable/selector_white_button_bg</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/font_color_black</item>
+        <item name="android:paddingLeft">15dip</item>
+        <item name="android:paddingRight">15dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dip</item>
+    </style>
+
+</resources>

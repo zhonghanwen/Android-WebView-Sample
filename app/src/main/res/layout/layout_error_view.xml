@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_error"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/titleBar"
+    android:background="@color/background_light_gray"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="50dp"
+    android:visibility="visible">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="加载失败"
+        android:textColor="@color/font_minor_color_gray"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="网络异常，请稍后重试"
+        android:textColor="@color/font_unimportance_color_gray"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btn_reload"
+        style="@style/WhiteSmallButton"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="重新加载"
+        android:textColor="@color/font_unimportance_color_gray"/>
+</LinearLayout>
